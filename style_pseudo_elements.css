@@ -1,11 +1,33 @@
-p.first_line::first-line {
-    color: #ff0000;
-    font-variant: small-caps;
-}
-
 p.first_letter::first-letter {
     color: green;
     font-variant: small-caps;
     font-weight:bold;
     font-size:30px;
+}
+
+p.first_line::first-line {
+    color: #ff0000;
+    font-weight:bold;
+    font-variant: small-caps;
+}
+
+p.before_after::before, p.before_after::after{
+    content: url(check.png);
+    height:10px;
+}
+
+p.selection::selection, p.selection::-moz-selection{
+    background:yellow;
+    color: red;
+}
+
+.background {
+    filter: blur(4px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.foreground {
+    backdrop-filter: blur(10px);
 }
