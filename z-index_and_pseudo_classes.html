@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+
+    h2{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .someButton{
+        top: 100px;
+        left 50px;
+    }
+    .someButton::after{
+        content: "";
+        width: 350;
+        height: 100;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-image: linear-gradient(30deg, #eaee33, #33ffff);
+        border-radius: 50px;
+        z-index: -1;
+    }
+    button{
+        border: none;
+        background-color: transparent;
+    }
+    
+</style>
+</head>
+<body>
+        <button class="someButton"><h2>This is the text inside the button</h2></button>
+</body>
+</html>
