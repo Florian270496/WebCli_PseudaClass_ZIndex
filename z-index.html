@@ -54,7 +54,7 @@ div#myBox {
     <h2 id=currentValue>z-index rote Box: 0</h2>
     <script>
     document.getElementById("slider").onchange = function(){
-        console.log(document.getElementById("slider").value);
+        
         document.getElementById("myBox").style.zIndex = parseInt(document.getElementById("slider").value);
         document.getElementById("currentValue").innerHTML = "z-index rote Box: "+parseInt(document.getElementById("slider").value);
     }
