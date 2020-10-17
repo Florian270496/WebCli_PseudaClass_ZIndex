@@ -4,7 +4,7 @@
 Group project about pseudoelements & z-index. 
 
 ### Github Pages
-* [pseodoelements](https://florian270496.github.io/WebCli_PseudoElements_ZIndex/pseudoelements.html) 
+* [pseodoelements](https://florian270496.github.io/WebCli_PseudoElements_ZIndex/pseudo_elements.html) 
 
 Script divided in 3 parts
 UIArchitecture-CustomUIElements-Remoting
